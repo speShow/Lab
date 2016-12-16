@@ -1,0 +1,56 @@
+/* CSS Document */
+.foot_bg{background:#475268;}
+.foot{
+	margin:0 auto;
+	width:1263px;
+	height:312px;
+}
+.foot div{padding-top:54px;}
+.foot_p1,.foot_p2{
+	float:left;
+	margin-right:100px;
+	}
+.foot_p1{
+	margin-left:62px;
+	width:186px;
+	}
+.foot h2{
+	margin-bottom:24px;
+	font-size: 20px;
+	color: #fff;
+}
+.foot p,.foot_p2 span{color:#d4d7dc;}
+.foot p{line-height:30px;}
+.foot_p1 a,.foot_p2 a:hover{color:#f37c6b;}
+.foot_p2 a{
+	margin: 0 4px;
+	color: #444e67;
+}
+.foot_p3{
+	float:right;
+	margin-right:100px;
+	}
+.foot_p3 ul{
+	width:240px;
+	overflow:hidden;
+	}
+.foot_p3 ul li{
+	float:left;
+	margin:0 10px 10px 0;
+	width:52px;
+	height:52px;
+	text-align:center;
+	line-height:52px;
+	background:#505b71;
+	transition:background .3s;
+	}
+.foot_p3 ul li:hover{
+	background: #f77b6f;
+	transition:background .3s;
+	cursor:pointer;
+}
+.foot_p3 ul li a{
+	font-size:30px;
+	color:#fff;
+}
+.foot_p3 ul li.r0{margin-right:0;}

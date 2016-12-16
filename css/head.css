@@ -1,0 +1,65 @@
+/* CSS Document */
+.ad{height: 90px;}
+.top{
+	margin: 0 auto;
+	width: 1170px;
+	height:102px;
+	line-height:102px;
+}
+.top .logo{
+	float:left;
+	margin:34px 0 0 16px;
+}
+.top_right{float: right;}
+.top .nav{
+	float:left;
+	margin:32px 14px 0 0;
+}
+.top .nav li{
+	float:left;
+	margin-left:2px;
+	padding: 0 14px;
+	height:40px;
+	font-size:14px;
+	text-align:center;
+	line-height:40px;
+	border-radius:5px;
+	transition:background .3s;
+}
+.top .nav li.cur{background: #e7e7e7;}
+.top .nav li:hover{
+	transition:background .3s;
+	cursor:pointer;
+}
+.top .nav li a{color:#a598a4;}
+.top .nav li:hover .dropdown-menu li a{color: #a598a4;}
+.top .nav .dropdown:hover .dropdown-menu{display: block;}
+.dropdown{position: relative;}
+.dropdown-menu{
+	position: absolute;
+	bottom: -101px;
+	left: 0;
+	padding-top: 32px;
+	width: 160px;
+	height: 70px;
+	display: none;
+	z-index: 1;
+}
+.top .nav .dropdown .dropdown-menu li{
+	float: none;
+	margin: 0;
+	padding-left: 10px;
+	width: 150px;
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+	background: #fff;
+	border-radius: 0;
+	cursor: pointer;
+}
+.top .nav li:hover,.top .nav .dropdown .dropdown-menu li:hover{background: #f77b6f;}
+.top .nav li:hover a,.top .nav .dropdown .dropdown-menu li:hover a{color: #fff;}
+.top .search{
+	float:left;
+	margin-top:42px;
+}
