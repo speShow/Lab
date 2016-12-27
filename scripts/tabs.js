@@ -1,6 +1,6 @@
 /*选项卡切换*/
 var tabs=document.getElementById('tabs').getElementsByTagName('li');
-var tabsCont=document.getElementsByClassName('box3_cont');
+var tabsCont=document.getElementsByClassName("box3_cont");
 //默认
 //tabs[0].className+=" cur";
 tabs[0].style.color="#797979";
